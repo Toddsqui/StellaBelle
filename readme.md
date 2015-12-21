@@ -7,3 +7,8 @@ This is going to be the official website for Stellabelle, famed author of the bo
 - bootstrap
 - WordPress
 - jQuery (possibly)
+
+### Links:
+[Un-Crap Your Life](http://www.amazon.com/Un-Crap-Your-Life-Navigating-Situations-ebook/dp/B017PBLZPA)
+
+[Stellabelle's Old Website](http://leahstephens.weebly.com/)
