@@ -51,10 +51,15 @@ h3 {
   display: inline;
 }
 
+/* LINKS ON THE RIGHT SIDE OF THE BLOG CONTENT */
 ul {
-  text-decoration: none;
-  margin: 0 0 0 0;
+  list-style-type: none;
   height: 100%;
+  text-align: right;
+  font-family: 'bebasregular';
+  font-size:  25px;
+  margin-top: -5px;
+  font-weight: bolder;
 }
 
 ul li {
@@ -165,4 +170,15 @@ footer{
          url('assets/bebas___-webfont.svg#bebasregular') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+/* MEDIA QUERIES THAT MAKE YOUR SITE LOOK GOOD AT DIFFERENT RESOLUTIONS */
+
+@media screen and (max-width: 767px) {
+  ul {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: 2px;
+  }
 }
