@@ -67,6 +67,11 @@ ul li {
   margin: 0;
 }
 
+#archive {
+  font-family: 'Quicksand';
+  font-size: 16px;
+}
+
 .col2 {
   background-image: url(../fresh_snow.png);
   margin: 0 auto;
@@ -98,6 +103,25 @@ ul li {
   padding: 0;
   display: inline;
 }
+
+p#archive-col3{
+  text-align: left;
+  font-family: 'quicksand';
+  font-size: 16px;
+
+}
+
+#greatesthits {
+  list-style-type: none;
+  height: 100%;
+  text-align: left;
+  font-family: 'bebasregular';
+  font-size:  25px;
+  margin-top: -5px;
+  font-weight: bolder;
+
+}
+
 
 .post {
   background-color: white;
@@ -181,4 +205,12 @@ footer{
     line-height: 1;
     letter-spacing: 2px;
   }
+  p#archive-col3{
+    text-align: center;
+  }
+  #greatesthits {
+    text-align: center;
+  }
+
+
 }
