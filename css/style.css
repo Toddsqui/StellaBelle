@@ -61,6 +61,7 @@ h3 {
   display: inline;
 }
 
+
 /* LINKS ON THE RIGHT SIDE OF THE BLOG CONTENT */
 ul {
   list-style-type: none;
@@ -88,7 +89,14 @@ ul li {
   height: 100%;
   width: 31%
   float: left;
-  display: inline;
+  display: block;
+
+}
+
+.col-sm-4 {
+  display: block;
+  height: 100%;
+
 }
 
 /* this is the dark black bar in your post box, at the top */
@@ -229,5 +237,9 @@ footer{
     margin-left: 22%;
 }
 
+.greatesthits {
+  visibility: collapse;
+  height: 10px;
+}
 
 }
