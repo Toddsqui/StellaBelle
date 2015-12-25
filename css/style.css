@@ -12,8 +12,9 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #339999;
   text-decoration: none;
+  transition: 0.5s;
 }
 h1 {
   font-family: 'lobster_twobold';
