@@ -5,6 +5,11 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+.navbar {
+  margin: 0;
+}
+
 /* LINK TEXT-DECORATION */
 a {
   text-decoration: none;
@@ -18,6 +23,17 @@ a:hover {
 }
 
 /* ADJUSTS THE IMAGES ON THE HOME PAGE */
+
+/* adjusts the banner image */
+
+#banner {
+  width: 100%;
+  margin: 0;
+  height: 322px;
+  margin: -3px 0 44px -7px;
+}
+
+/* end of banner adjustment */
 
 img {
   width: 103%;
@@ -197,6 +213,8 @@ footer{
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 /* MEDIA QUERIES THAT MAKE YOUR SITE LOOK GOOD AT DIFFERENT RESOLUTIONS */
 
